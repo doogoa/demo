@@ -14,8 +14,8 @@ public class HelloWorld {
     @RequestMapping("/hello/world")
     public String helloWorld() {
         log.info("hello");
-        List<String> finalList = new ArrayList<>(List.of("hello"));
-        List<String> tempList = new ArrayList<>(List.of("world"));
+        List<String> finalList = new ArrayList<>(List.of("Hello"));
+        List<String> tempList = new ArrayList<>(List.of("World"));
 
         return CommonUtil.addAll(finalList, tempList).toString();
     }
