@@ -13,7 +13,7 @@ import java.util.List;
 public class HelloWorld {
     @RequestMapping("/hello/world")
     public String helloWorld() {
-        log.info("hello");
+        log.info("2023/04/14 create a new project in github");
         List<String> finalList = new ArrayList<>(List.of("Hello"));
         List<String> tempList = new ArrayList<>(List.of("World"));
 
