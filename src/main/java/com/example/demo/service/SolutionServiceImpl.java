@@ -15,6 +15,7 @@ public class SolutionServiceImpl implements SolutionService {
             case 3 -> 2;
             default -> newSolution(n - 3) + newSolution(n - 1);
         };
+        
     }
 
     @Override
