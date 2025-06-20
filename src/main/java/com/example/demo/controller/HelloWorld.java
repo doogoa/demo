@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.aspect.WriteLog;
 import com.example.demo.entity.RoundUpList;
 import com.example.demo.service.SolutionService;
 import com.example.demo.util.CommonUtil;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @RestController
 @Slf4j
+@WriteLog
 public class HelloWorld {
     private SolutionService solutionService;
     @Autowired
